@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFEFC1;
+    color: black;
+    font-family: "Jura", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #FFF0BD;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 60px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+input {
+    color: #6B6060;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 1.1em; /* tamanho da letra */
+    margin-top: 10px; /* espaço acima */
+    font-family: "Jura", sans-serif;
+}
+
+button,
+.google,
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #C7DB9C;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 10px;
+}
+
+button:hover,
+.google:hover,
+.facebook:hover {
+    background-color: #D7E5B9;
+}
