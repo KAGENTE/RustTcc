@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #FFF0BD; /* amarelo claro */
+    background-color: #FFF0BD; 
     color: #000;
 }
 
@@ -55,7 +55,7 @@ h1 {
 
 .scan-btn {
     margin-top: 15px;
-    background-color: #C7DB9C; /* verde claro */
+    background-color: #C7DB9C;
     border: 2px solid #000;
     border-radius: 8px;
     padding: 10px 20px;

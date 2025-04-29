@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+    
+}
+
+html, body {
+    height: 100%;
+  }
+
+body {
+    background-color: #fff0BD;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #C7DB9C;
+    width: 220px;
+    padding: 20px;
+    height: 100%;
+}
+
+.sidebar h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.ingredientes-lista {
+    list-style: none;
+}
+
+.ingredientes-lista li {
+    background-color: #C7DB9C;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+#navbar{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ff3366;
+}
+input{
+    background-color: #fff0BD;
+    border: 1px solid black;
+    padding: 15px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.search-box {
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid #aaa;
+    outline: none;
+    width: 400px;
+    height: 40px;
+}
+
+.sugestoes {
+    margin-top: 20px;
+}
+.sugestoes {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .sugestao-ingredientes,
+  .sugestao-preparo {
+    width: 770px;
+    height: 700px;
+    background-color: #fdf1cf;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.botoes button {
+    background-color: #C7DB9C;
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.ingredientes-lista button{
+    background-color: #C7DB9C;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px;
+    width: 179px;
+    height: 35px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.ingredientes-lista button:hover{
+    background-color: #D7E5B9;
+
+}
+
+.button-receitas{
+    margin-top: 200px;
+}
