@@ -10,7 +10,6 @@ body {
 header {
     display: flex;
     justify-content: center;
-
     padding: 20px 40px;
 }
 
@@ -95,10 +94,6 @@ main {
     bottom: 0px;    
     right: 20px;     
     z-index: -1;      
-}
-
-#fundo img{
-
 }
 
 #conteudo {

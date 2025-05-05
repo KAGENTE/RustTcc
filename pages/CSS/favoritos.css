@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: #FFEFC1;
+}
+
+.barra-lateral {
+  width: 58px;
+  height: 100vh;
+  background-color: #C5DBA0;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.principal {
+  margin-left: 50px;
+  width: calc(100% - 50px);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+#navbar{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ff3366;
+}
+
+nav span {
+  margin: 0 4px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pesquisa input {
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: 1px solid #999;
+  font-size: 14px;
+  width: 220px;
+}
+
+.pesquisa {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pesquisa input {
+  padding: 10px 15px 10px 40px; 
+  border-radius: 20px;
+  border: 1px solid #999;
+  font-size: 14px;
+  width: 220px;
+}
+
+.icone-lupa {
+  position: absolute;
+  left: 12px;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lista li {
+  background-color: #C5DBA0;
+  border-radius: 8px;
+  padding: 10px 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  border: 1px solid #555;
+}
+
+.lista li p {
+  margin-left: 20px;
+  font-size: 12px;
+  color: #355e3b;
+  flex: 1;
+}
+
+.estrela {
+  color: red;
+  margin-right: 8px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: #292929;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 10;
+}
+
+
