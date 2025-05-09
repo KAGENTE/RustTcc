@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas-vindas ao Meloon - Entrar</title>
+  <link rel="stylesheet" href="/CSS/pag.css" />
+</head>
+<body>
+    <div class="container">
+        <img src="img/meloon.png" alt="Logo Meloon" class="logo" width="130">
+
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="senha" name="senha" placeholder="Senha" required>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <a>Esqueceu sua senha?</a>
+        <p>Não tem uma conta? Inscrever-se no <strong>Meloon</strong></p>   
+
+        <button type="logo google">
+            <img src="img/goog.png" alt="Google" width="30">Continuar com o Google
+        </button>
+
+        <button class="logo facebook">
+            <img src="img/facebook.png" alt="Facebook" width="30">Continuar com o Facebook
+        </button>
+
+    </div>
+</body>
+</html>

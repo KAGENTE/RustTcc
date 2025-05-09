@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mel00n - Receitas</title>
+  <link rel="stylesheet" href="/CSS/csshome.css" />
+</head>
+<body>
+<script>
+function login() {
+  window.location.href = "/login";
+}
+</script>
+    <div class="logo">
+        <img src="img/meloon.png" alt="Logo Mel00n" />
+    </div>
+    <header>
+        <nav>
+            <div id="navbar">
+                <a href="#">Receitas</a>
+                <span>|</span>
+                <a href="#" id="123">Gerar</a>
+                <span>|</span>
+                <a href="#">Favoritos</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="left">
+        <h1>Busque sua receita ideal</h1>
+        <p>
+            Usaremos IA para buscar sua receita da melhor forma possível e claro se quiser
+            poderá adicioná-la em sua lista para mais tarde.<br><br>
+            Oferecemos as opções mais variadas para sua dieta, use como desejar cada filtro.
+        </p>
+        <a href="#" class="button">Veja aqui sua receita</a>
+        </section>
+    </main>
+</body>
+</html>

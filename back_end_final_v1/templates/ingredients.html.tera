@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mel00N</title>
+  <link rel="stylesheet" href="/CSS/ingredients.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Ingredientes Adicionados</h3>
+      <ul class="ingredientes-lista">
+        <li>Farinha <button>✖</button></li>
+        <li>Ovo <button>✖</button></li>
+        <li>Óleo <button>✖</button></li>
+        <li>Leite <button>✖</button></li>
+        <li>Morango <button>✖</button></li>
+        <li>Queijo <button>✖</button></li>
+        <li>Limão <button>✖</button></li>
+        <li>Açúcar <button>✖</button></li>
+        <li>Maracujá <button>✖</button></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <nav>
+            <div id="navbar">
+                <a href="#">Receitas</a>
+                <span>|</span>
+                <a href="#">Gerar</a>
+                <span>|</span>
+                <a href="#">Favoritos</a>
+            </div>
+        </nav>
+        <input type="text" placeholder="Pesquisar" class="search-box" />
+      </header>
+
+      <section class="sugestoes">
+        <div class="sugestao">
+          <h4>sugestão de Ingrediente</h4>
+          <div class="botoes">
+            <button>Macarrão</button>
+            <button>Alho</button>
+            <button>Canela</button>
+            <button>Frango</button>
+            <button>Goma de tapioca</button>
+            <button>Salsinha</button>
+            <button>Manteiga</button>
+            <button>+ Ingredientes</button>
+          </div>
+        </div>
+
+
+        <div class="sugestao">
+          <h4>sugestão de Receita</h4>
+          <div class="botoes">
+            <button>Macarrão com Molho Branco</button>
+            <button>Bolo de Morango</button>
+            <button>Panqueca Simples</button>
+            <button>Omelete de Queijo</button>
+            <button>Merengue de Morango</button>
+            <button>Bolinho de Chuva</button>
+            <button>Mousse de Maracujá</button>
+            <button>+ Receitas</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
